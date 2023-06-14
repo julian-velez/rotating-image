@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 290px;
+}
+
+
+
+.container {
+    perspective: 800px; /* Ajusta la perspectiva según tus preferencias */
+    width: 300px; /* Ajusta el ancho del contenedor según tus necesidades */
+    height: 300px; /* Ajusta la altura del contenedor según tus necesidades */
+  }
+  
+  .spiral-image {
+    width: 100%; /* Ajusta el ancho de la imagen según tus necesidades */
+    height: 100%; /* Ajusta la altura de la imagen según tus necesidades */
+    transition: transform 0.8s;
+  }
+  
+  .container:hover .spiral-image {
+    transform: rotateZ(720deg); /* Ajusta el ángulo de rotación según tus preferencias */
+  }
+  
+  
